@@ -13,14 +13,27 @@
         }
         .container {
             max-width: 800px;
-            margin: 50px auto;
+            margin: 40px auto;
             padding: 20px;
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            text-align: center;
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            vertical-align: text-bottom;
+        }
+        .header img {
+            max-height: 80px;
+            max-width: 200px;
+            object-fit: contain;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
             color: #0056b3;
         }
         .footer {
@@ -41,9 +54,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <img width="200px"src="https://www.launitedway.org/sites/launitedway/files/LA%20211%20statewide%20-logo-1line-rgb-01.jpg" alt="LA 211 Statewide Logo">
-        </div>
-        <h1>LA211 Referral &amp; Care Coordination</h1>
+            <img src="https://www.launitedway.org/sites/launitedway/files/LA%20211%20statewide%20-logo-1line-rgb-01.jpg" alt="LA 211 Statewide Logo">
+        <h1>Referral &amp; Care Coordination</h1>
+    </div>
         <!-- Embed Cognito Form -->
         <script src="https://www.cognitoforms.com/f/seamless.js" data-key="MO-JKuhcckixl9Vhe5rvug" data-form="34"></script>
     </div>
